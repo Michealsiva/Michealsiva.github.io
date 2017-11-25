@@ -21,7 +21,7 @@
         $('#gform').prepend('Your submission has been processed...');
     });
 
-    $('a').each(function() {
+    $('a').not(".btn").each(function() {
         var a = new RegExp('/' + window.location.host + '/');
         if (!a.test(this.href)) {
             $(this).click(function(event) {
