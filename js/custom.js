@@ -1,4 +1,5 @@
-(function($) {
+/*
+    (function($) {
     $('body').scrollspy({
         target: '.dotted-scrollspy'
     });
@@ -11,9 +12,10 @@
     $('#collapseEx a').click(function(e) {
         $('#collapseEx').collapse('hide');
     });
-    
-    
+  */  
+  
     /* WOW.js init */
+/*
     new WOW().init();
      $('#portfolio a').not(".btn").each(function() {
 	     var a = new RegExp('/' + window.location.host + '/');
@@ -62,7 +64,8 @@
             $this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
         }, 'json');
         return false;
-    });
+    }); 
+*/
 
 
     /* Isotope Implementation */
